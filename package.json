@@ -2,9 +2,8 @@
   "name": "imgur-uploader",
   "main": "./lib/imgur-uploader",
   "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
-  ],
+  "description": "Imgur uploader for Atom Editor",
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "imgur-uploader:toggle"
   },
@@ -14,5 +13,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "imgur-anonymous-uploader": "^1.1.2"
   }
 }
