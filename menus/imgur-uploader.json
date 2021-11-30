@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle imgur-uploader",
+        "command": "imgur-uploader:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "imgur-uploader",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "imgur-uploader:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
